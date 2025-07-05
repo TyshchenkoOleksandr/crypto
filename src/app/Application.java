@@ -23,9 +23,9 @@ public class Application {
 
     private Function getFunction(String mode) {
         return switch (mode) {
-            case "1" -> FunctionCode.valueOf(ENCODE).getFunction();
-            case "2" -> FunctionCode.valueOf(DECODE).getFunction();
-            case "3" -> FunctionCode.valueOf(BRUTE_FORCE).getFunction();
+            case "ENCRYPT" -> FunctionCode.valueOf(ENCODE).getFunction();
+            case "DECRYPT" -> FunctionCode.valueOf(DECODE).getFunction();
+            case "BRUTE_FORCE" -> FunctionCode.valueOf(BRUTE_FORCE).getFunction();
             default -> FunctionCode.valueOf(UNSUPPORTED_FUNCTION).getFunction();
         };
     }

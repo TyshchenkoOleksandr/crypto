@@ -4,31 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43f87e6d-d9d3-429a-8c48-cabb9d196c88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/ApplicationCompletionConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/CryptoAlphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/FunctionCodeConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/FunctionCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ApplicationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Decode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Encode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/UnsupportedFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/GuiView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+    <list default="true" id="43f87e6d-d9d3-429a-8c48-cabb9d196c88" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/constants/CryptoDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/dune.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yesterday.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CryptoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/CryptoAlphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/CryptoAlphabet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Decode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Encode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Encode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ConsoleView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2z7qUWK5SOETeoTHRO4xQMqbP6V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EntryPoint.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EntryPoint.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entity" />
@@ -76,6 +64,10 @@
       <recent name="app" />
       <recent name="controller" />
       <recent name="view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,6 +79,30 @@
       <option name="presentableId" value="Default" />
       <updated>1751092474395</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1751097851374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751097851374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
